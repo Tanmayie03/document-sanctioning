@@ -1,0 +1,140 @@
+body{
+    background-image: url("./images/banner.png");
+    width: 100%;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navBar{
+    background-color: rgba(255, 255, 255, 0.642);
+    width: 100%;
+    height: 60px;
+    display: flex; 
+}
+.firstnav{
+    background-color: #65BEF5;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 5px 50px;
+}
+.navBar ul{
+    display: flex;
+    align-items: end;
+    align-content: end;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 10px 0px;
+
+}
+.navBar ul li a{
+    display: block;
+    color: #000;
+    font-size: 16px;
+    padding:  10px 25px;
+    border-radius: 40px;
+    transition: 0.2s;
+    margin: 0px 10px;
+    text-decoration: none
+     
+}
+.navBar ul li a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.715);
+}
+.navBar ul li a.active{
+    background-color: #000000;
+    color: white;
+    padding:  10px 25px;
+}
+
+
+.navlist{
+    display: flexbox;
+    justify-content: space-between;
+    list-style-type: none;  
+    font-weight: bold;
+ 
+}
+.logout-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+    padding: 20px 40px;
+    color: #000;
+    text-decoration: none;
+ }
+ .login-info .content{
+    margin: 40px 10px;
+ }
+ .log-outimg{
+     width: 50px;
+ }
+ .DtTime{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 20px;
+    color:white;
+    font-size: 14px;
+    padding: 20px;
+}
+#profile-pic{
+width: 80px;
+margin: 0px auto;
+display: flex;
+align-items: center;
+
+}
+
+.login-info{
+color: white;
+background-color: rgba(0, 0, 0, 0.632);
+width: 350px;
+height: 325px;
+padding: 5px;
+margin: auto  auto ;
+border-radius: 12px;
+align-items: center;
+align-content: center;
+font-size: 16px;
+font-weight: 500;
+box-sizing: border-box;
+}
+.cForm{
+    display: inline;
+}
+.cName,.cRollno,.cSem,.cDiv{
+    margin: 0px;
+    padding: 2px;
+    width:130px;
+    font-size: 14px; 
+    display: inline-flex; 
+    flex-direction: row;
+    align-items: end; 
+    align-content: end;
+    justify-content: end;
+    resize: vertical;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: none;
+}
+#logOut{
+    color: #000;
+    text-decoration: none;
+}
+.navBar .logOut:hover{
+    color: #65BEF5;
+    text-decoration: underline;
+
+}
+label {
+    padding: 12px 12px 12px 0;
+  display: inline-block;
+
+  }
+

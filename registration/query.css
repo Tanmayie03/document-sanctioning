@@ -1,0 +1,143 @@
+body{
+    width: 100%;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.navBar{
+background-color: rgba(255, 255, 255, 0.642);
+box-shadow: 0px 0px 5px 0px  #000000;
+width: 100%;
+height: 60px;
+display: flex; 
+color: #000;
+text-decoration: none;
+}
+.firstnav{
+background-color: #65BEF5;
+display: flex;
+justify-content: space-between;
+height: 50px;
+padding: 5px 50px;
+}
+.navBar ul{
+display: flex;
+align-items: end;
+align-content: end;
+justify-content: space-between;
+padding: 0px 20px;
+margin: 10px 0px;
+
+}
+.navBar ul li a{
+display: block;
+color: #000;
+font-size: 16px;
+padding:  10px 25px;
+border-radius: 40px;
+transition: 0.2s;
+margin: 0px 10px;
+text-decoration: none;
+ 
+}
+.navBar ul li a:hover{
+color: white;
+background-color: rgba(0, 0, 0, 0.715);
+}
+.navBar ul li a.querybar{
+background-color: #000000;
+color: white;
+padding:  10px 25px;
+}
+
+
+.navlist{
+display: flexbox;
+justify-content: space-between;
+list-style-type: none;  
+font-weight: bold;
+
+}
+.logout-info{
+display: flex;
+flex-direction: row;
+justify-content: end;
+align-items: center;
+margin-left: auto;
+padding: 20px 40px;
+}
+.logOut{
+color: #000;
+text-decoration: none;
+}
+.navBar .logOut:hover{
+color: #65BEF5;
+
+}
+.login-info .content{
+margin: 40px 10px;
+}
+.log-outimg{
+ width: 50px;
+}
+.DtTime{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 20px;
+    color:black;
+    font-size: 14px;
+    padding: 20px;
+}
+.queryForm{
+    width: 300px;
+    margin: auto auto;
+    padding: 10px; 
+    
+}
+.qform{
+    margin: 0px auto 10px auto;
+    padding: 20px;
+    height: 400px;
+    padding: 5px;
+    
+}
+.qName, .qMail{
+    height: 40px;
+    width: 285px;
+    background-color: #00000058;
+    color: azure;
+    border-radius: 8px;
+    margin: 0px auto 15px auto;
+    border: none;
+    padding: 3px;
+
+}
+.qMsg{
+    height: 120px;
+    width: 285px;
+    background-color: #00000058;
+    color: azure;
+    float: top;
+    border-radius: 5px;
+    margin: 0px auto 15px auto;
+    border: none;
+    padding: 3px;
+
+}
+.sub-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100px;
+    height: 40px; 
+    background-color: #0000002b;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px auto;
+    font-size: 18px;
+    color:black;
+}

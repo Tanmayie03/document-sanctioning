@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "D:/Scrimba/NOW"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "registration"
+	}
+}

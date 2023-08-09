@@ -1,0 +1,198 @@
+body{
+    width: 100%;
+    margin: 0%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.req-btn{
+    width: 170px;
+    height: 50px;
+    background-color: #65BEF5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px ;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto 5px auto ;
+
+}
+.req-btn:hover{
+background-color: #f2f2f2;
+color: black;
+border:2px solid #65BEF5;
+}
+#dialogueBox{
+    display: none;
+}
+.dialogueForm{
+    width: 300px;
+    background-color: #000000ae;
+    color: white;
+    font-size: 14px;
+    padding: 30px 15px;
+    border-radius: 10px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+
+.btn{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 3px;
+    margin:10px 0px 0px 0px;
+}
+#docName{
+    width: 285px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0px;
+}
+#descript {
+    max-width: 285px;
+    max-height: 20px;
+    padding: 6px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin: 5px 5px 5px 1px;
+
+  }
+#authenticate {
+    width: 285px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 5px 5px 0px;}
+#submit-btn{
+    width: 100px;
+    height: 32px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: #65BEF5;
+
+}
+#close-btn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.046);
+    border:2px solid #65BEF5;}
+
+.navBar{
+    background-color: rgba(255, 255, 255, 0.642);
+    box-shadow: 0px 0px 5px 0px  #000000;
+    width: 100%;
+    height: 60px;
+    display: flex; 
+    color: #000;
+    text-decoration: none;
+}
+.firstnav{
+    background-color: #65BEF5;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 5px 50px;
+}
+.navBar ul{
+    display: flex;
+    align-items: end;
+    align-content: end;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin: 10px 0px;
+
+}
+.navBar ul li a{
+    display: block;
+    color: #000;
+    font-size: 16px;
+    padding:  10px 25px;
+    border-radius: 40px;
+    transition: 0.2s;
+    margin: 0px 10px;
+    text-decoration: none;
+     
+}
+.navBar ul li a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.715);
+    
+}
+.navBar ul li a.docbar{
+    background-color: #000000;
+    color: white;
+    padding:  10px 25px;
+}
+
+
+.navlist{
+    display: flexbox;
+    justify-content: space-between;
+    list-style-type: none;  
+    font-weight: bold;
+ 
+}
+.logout-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+    padding: 20px 40px;
+ }
+ .logOut{
+    color: #000;
+    text-decoration: none;
+}
+.navBar .logOut:hover{
+    color: #65BEF5;
+
+}
+ .login-info .content{
+    margin: 40px 10px;
+ }
+ .log-outimg{
+     width: 50px;
+ }
+ .DtTime{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 20px;
+    color:black;
+    font-size: 14px;
+    padding: 20px;
+}
+th {
+    background-color: #65BEF5;
+    color: white;
+  }
+th, td {
+    text-align: left;
+    padding: 8px 28px;
+  }
+  tr:nth-child(even) {background-color: #f2f2f2;} 
+#detailsTable{
+    width: 400;
+    border: 2px solid black;
+    margin: auto;
+}
